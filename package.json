@@ -7,8 +7,8 @@
     "node": ">=22"
   },
   "overrides": {
-    "nf3": "0.3.17"
-  },
+      "recharts": "2.15.4"
+  },  
   "scripts": {
     "dev": "node scripts/with-app-env.mjs vite dev --host 0.0.0.0 --port 8080",
     "build": "node scripts/with-app-env.mjs vite build && npm run db:migrate",
